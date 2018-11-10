@@ -1,8 +1,8 @@
 ---
 - name: Install PHP Mess Detector.
-  become: yes
+  become: true
   get_url:
     url: http://static.phpmd.org/php/latest/phpmd.phar
     dest: /usr/local/bin/phpmd
     mode: 0755
-    force: yes
+    force: true
