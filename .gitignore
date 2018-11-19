@@ -1,0 +1,2 @@
+# Molecule testing cache
+molecule/default/tests/__pycache__/
